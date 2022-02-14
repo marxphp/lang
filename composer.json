@@ -1,0 +1,17 @@
+{
+    "name": "max/lang",
+    "authors": [
+        {
+            "name": "ChengYao",
+            "email": "bigyao@139.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Max\\Lang\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
