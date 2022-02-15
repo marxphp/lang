@@ -1,17 +1,20 @@
 {
-    "name": "max/lang",
-    "authors": [
-        {
-            "name": "ChengYao",
-            "email": "bigyao@139.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Max\\Lang\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^7.4|^8.0"
+  "name": "max/lang",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/topyao/max-lang",
+  "authors": [
+    {
+      "name": "chengyao",
+      "email": "987861463@qq.com",
+      "homepage": "https://www.1kmb.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Max\\Lang\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0"
+  }
 }
