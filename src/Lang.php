@@ -12,7 +12,6 @@ use Max\Utils\Arr;
  */
 class Lang
 {
-
     /**
      * 本地语言包
      *
@@ -48,7 +47,7 @@ class Lang
      *
      * @return $this
      */
-    public function setLangPath(string $langPath)
+    public function setLangPath(string $langPath): static
     {
         $this->langPath = $langPath;
 
@@ -62,7 +61,7 @@ class Lang
      *
      * @return $this
      */
-    public function setLangSuffix(string $suffix)
+    public function setLangSuffix(string $suffix): static
     {
         $this->suffix = $suffix;
 
@@ -88,7 +87,7 @@ class Lang
      *
      * @return $this
      */
-    public function setLocale(string $locale)
+    public function setLocale(string $locale): static
     {
         $this->locale = $locale;
         $packages     = glob($this->langPath . $locale . '/*' . $this->suffix);
@@ -133,5 +132,4 @@ class Lang
 
         return Arr::get($this->languages, $locale . '.' . $key);
     }
-
 }
