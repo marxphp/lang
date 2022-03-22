@@ -2,6 +2,7 @@
 
 namespace Max\Lang;
 
+use ArrayAccess;
 use Max\Utils\Arr;
 
 /**
@@ -119,7 +120,7 @@ class Lang
      * @param string      $key
      * @param string|null $locale
      *
-     * @return array|\ArrayAccess|mixed
+     * @return array|ArrayAccess|mixed
      */
     public function translate(string $key, ?string $locale = null)
     {
