@@ -16,6 +16,6 @@
     },
     "require": {
         "php": "^8.0",
-        "max/utils": "2.x-dev"
+        "max/utils": "dev-master"
     }
 }
